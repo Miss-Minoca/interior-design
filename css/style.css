@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.815);
+    text-decoration: none;
+
+}
+
+.nav-bar h1 {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: rgb(133, 127, 127);
+    list-style: none;
+}
+
+.nav-list {
+    justify-content: left;
+    text-decoration: none;
+    gap: 15px;
+}
+
+/* .nav-list li {
+    list-style: none;
+} */
+
+.text-container {
+    width: 20%;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.image-container img {
+    width: 90%;
+}
+
+.hero-image {
+    justify-content: right;
+}
+
+/* Welcome section */
+
+.welcome-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+.welcome-image {
+    width: 100%;
+}
+
+.welcome-image img {
+    width: 85%;
+    padding-left: 7rem;
+}
+
+.welcome-msg {
+    padding-right: 10rem;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* recent work section */
+
+.work {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.welcome-msg h5 {
+    padding-bottom: 1rem;
+}
+
+.welcome-msg h2 {
+    padding-bottom: 3rem;
+}
+
+
+.work h5 {
+    color: gray;
+    font-family: sans-serif;
+    padding-bottom: 1rem;
+}
+
+.work h3 {
+    font-family: sans-serif;
+    padding-bottom: 3rem;
+}
+
+.work {
+    width: 100%;
+    padding-bottom: 5rem;
+}
+
+.work-image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    padding-right: 60px;
+
+}
+
+.work-image img {
+    width: 100%;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+
+    padding: 40px;
+}
+
+.blog-image {
+    width: 100%;
+    align-content: center;
+}
+
+.blog-image img {
+    width: 50%;
+    justify-content: center;
+
+}
+.touch{
+    background-color: gray;
+    border-radius: 15px;
+    padding: 40px;
+    padding-right: 20px;
+}
+.touch p{
+    justify-content: center;
+}
