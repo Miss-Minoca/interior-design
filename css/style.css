@@ -5,7 +5,7 @@
 .nav-bar {
     display: flex;
     background-color: rgba(0, 0, 0, 0.815);
-    text-decoration: none;
+
 
 }
 
@@ -13,25 +13,30 @@
     color: white;
     font-family: cursive;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
-.nav-bar a {
+.nav-bar li{
     text-decoration: none;
-    color: rgb(133, 127, 127);
+    color: white;
     list-style: none;
 }
 
-.nav-list {
+/* .nav-list {
     justify-content: left;
     text-decoration: none;
     gap: 15px;
-}
-
-/* .nav-list li {
-    list-style: none;
 } */
+
+.nav-list a {
+    display: flex;
+    padding: 20px;
+    align-content: space-evenly;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+}
 
 .text-container {
     width: 20%;
@@ -113,7 +118,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 15px;
+    grid-column-gap: 25px;
     grid-row-gap: 0px;
     padding-right: 60px;
 
@@ -121,8 +126,18 @@
 
 .work-image img {
     width: 100%;
+    border-radius: 5%;
 }
-
+.blog-area{
+    padding: 30px;
+}
+.blog-area h5{
+    color: rgb(80, 79, 79);
+    font-family: sans-serif;
+}
+.blog-area h4{
+    font-family: sans-serif;
+}
 .blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -130,7 +145,7 @@
     grid-column-gap: 15px;
     grid-row-gap: 0px;
 
-    padding: 40px;
+
 }
 
 .blog-image {
@@ -139,16 +154,33 @@
 }
 
 .blog-image img {
-    width: 50%;
+    width: 70%;
     justify-content: center;
-
+    border-radius: 15%;
+    padding-bottom: 2rem;
 }
-.touch{
+
+
+/* get in touch section */
+.touch {
     background-color: gray;
     border-radius: 15px;
-    padding: 40px;
+    padding: 60px;
     padding-right: 20px;
 }
-.touch p{
+.touch h2{
+    text-align: center;
+    padding-bottom: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.touch p {
+    text-align:center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.touch button{
     justify-content: center;
 }
+
+/* footer section */
