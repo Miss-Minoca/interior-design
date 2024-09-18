@@ -12,7 +12,7 @@
 
 .nav-bar {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: rgba(0, 0, 0, 0.975);
     width: 15%;
     height: 100%;
     position: fixed;
@@ -69,9 +69,11 @@
     justify-items: right;
 }
 
-/* .main-section{
+.main-section{
     width: 85%;
-} */
+    margin-left: 15%;
+    overflow: hidden;
+}
 
 
 /* Welcome section */
@@ -338,7 +340,7 @@
 /* footer section */
 .footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 25px;
     grid-row-gap: 0px;
@@ -346,7 +348,7 @@
     padding-top: 6rem;
     background-color: rgba(0, 0, 0, 0.986);
     padding-bottom: 5rem;
-    padding-left: 6rem;
+    /* padding-left: 6rem; */
     align-items: center;
 }
 
